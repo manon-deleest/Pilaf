@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/consulter-stock.css">
+    <title>Consulter les Stocks</title>
+  </head>
+  <body>
+    <header>
+      <div class="hautPage">
+        <div>
+          <h1>  PILAF </h1>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="../menu.html">MENU </a></li>
+          <li><a href="../deco.html">DECONNEXION</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <main>
+      <section id="Creation">
+        <div class ="titre">
+          <h2>Rechercher un mouvement de stock</h2>
+        </div>
+        <div class= "entourage">
+          <div class="formulaire">           
+            <div class = "caractérisique1">
+              <p>Type de mouvement de stock : </p>
+              <p><input type="radio" name="question" value="entrée" checked>Entrée</p>
+              <p><input type="radio" name="question" value="sortie">Sortie</p>  
+              <p>Code Barre :  <input type="text" name="code" value=""></p>
+              
+            </div>
+            <div class= "caracteristique"> 
+              <p>Date : <input type="date" name="date" value=""></p>
+              <p>Nom du produit : 
+                <select class="produit" name="produit">
+                  <option value="default">Défaut</option>
+                  <option value="Produit1">Produit1</option>
+                  <option value="Produit2">Produit2</option>
+                  <option value="Produit3">Produit3</option>
+                  <option value="Produit4">Produit4</option>
+                </select>
+              </p>
+              <p>Type de flux : <input type="text" name="type" value=""></p>
+             
+            </div>
+            
+          <input class="legend2" type="button" name="search" value="Rechercher">
+        </div>
+      </section>
+
+
+      <section id="Resultat">
+        <div class="titre">
+          <h2 id="Résultats">Résultats</h2>
+        </div>
+       
+        <div class="exemple">
+          <div class= "info">
+            <p>Date du mouvement : 12/05/2020</p><br/>
+            <p>Code barre du produit : 5 568743 345095</p><br/>
+            <p>Nom du produit : Jus de citron</p><br/>
+            <p>Raison : Livraison de marchandise </p><br/>
+            <p>Quantité : 24</p><br/>
+            <p>Type de flux : Flux entrant de marchandise</p><br/>
+          </div>
+          <div class="option">
+            <a href="consulter-mvt.html">
+              <input class="legend3" type="button" name="see" value="Voir le mouvement de stock">
+            </a>
+            <a href="modifier-mvt.html">
+              <input class="legend3" type="button" name="see" value="Modifier le mouvement de stock">
+            </a>
+          </div>
+        </div>
+
+        <div class="exemple">
+          <div class= "info">
+            <p>Date du mouvement : 12/05/2020</p><br/>
+            <p>Code barre du produit : 5 568743 345095</p><br/>
+            <p>Nom du produit : Jus de citron</p><br/>
+            <p>Raison : Livraison de marchandise </p><br/>
+            <p>Quantité : 24</p><br/>
+            <p>Type de flux : Flux entrant de marchandise</p><br/>
+          </div>
+          <div class="option">
+            <a href="consulter-mvt.html">
+              <input class="legend3" type="button" name="see" value="Voir le mouvement de stock">
+            </a>
+            <a href="modifier-mvt.html">
+              <input class="legend3" type="button" name="see" value="Modifier le mouvement de stock">
+            </a>
+          </div>
+        </div>
+        <div class="exemple">
+          <div class= "info">
+            <p>Date du mouvement : 12/05/2020</p><br/>
+            <p>Code barre du produit : 5 568743 345095</p><br/>
+            <p>Nom du produit : Jus de citron</p><br/>
+            <p>Raison : Livraison de marchandise </p><br/>
+            <p>Quantité : 24</p><br/>
+            <p>Type de flux : Flux entrant de marchandise</p><br/>
+          </div>
+          <div class="option">
+            <a href="consulter-mvt.html">
+              <input class="legend3" type="button" name="see" value="Voir le mouvement de stock">
+            </a>
+            <a href="modifier-mvt.html">
+              <input class="legend3" type="button" name="see" value="Modifier le mouvement de stock">
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

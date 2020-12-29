@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/modifier-mvt-stock.css">
+    <title>Modifier un mouvement de stock</title>
+  </head>
+  <body>
+    <header>
+      <div class="hautPage">
+        <div>
+          <h1>  PILAF</h1>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="../menu.html">MENU </a></li>
+          <li><a href="../deco.html">DECONNECTION</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <main>
+      <section id="Creation">
+        <div class ="titre">
+          <h2>Modifier un mouvement de stock</h2>
+        </div>
+        <div class= "entourage">
+          <div class="formulaire">
+            <p>Type de mouvement de stock : </p>
+            <p><input type="radio" name="question" value="entrée" checked>Entrée</p>
+            <p><input type="radio" name="question" value="sortie">Sortie</p>  
+            <p>Référence du mouvement de Stock : <input type="text" name="ref" value="23975497"></p>
+          </div>
+          <table>
+            <tr>
+              <th>Code Barre </th>
+              <th>Date</th>
+              <th>Nom du produit</th>
+              <th>Raison</th>
+              <th>Quantité</th>
+              <th>Type de flux</th>
+            </tr>
+            <tr>
+              <td><input type="text" name="code barre" value=">5 568743 345095"></td>
+              <td><input type="date" name="date" value="12/05/2020"></td>
+              <td><input type="text" name="nom" value="Jus de citron"></td>
+              <td><input type="text" name="raison" value="Livraison de marchandise"></td>
+              <td><input type="number" name="quantité" value="24"></td>
+              <td><input type="text" name="type de flux" value="Flux entran de marchandise"></td>
+            </tr>
+          </table><br/>
+          <br/>
+          <a href="consulter-mvt-stock.html">
+            <input class="legend2" type="button" name="record" value="Enregistrer">
+          </a>
+          <a href="quitter-mvt.html">
+            <input class="legend1" type="button" name="delete" value="Annuler ">
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

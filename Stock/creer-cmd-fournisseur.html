@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/creer-cmd-fournisseur.css">
+    <title>Créer une commande fournisseur</title>
+  </head>
+  <body>
+    <header>
+      <div class="hautPage">
+        <div>
+          <h1>  PILAF </h1>
+        </div>
+      </div>
+
+    </header>
+
+
+    <main>
+      <section id="Creation">
+        <div class ="titre">
+          <h2>Créer une commande fournisseur</h2>
+        </div>
+        <div class= "entourage">
+          <div class="formulaire">
+            <div>
+              <p>Choisissez le fournisseur:
+                <select class="fournisseur" name="Fournisseur">
+                  <option value="default">Défaut</option>
+                  <option value="Fournisseur1">Fournisseur1</option>
+                  <option value="Fournisseur2">Fournisseur2</option>
+                  <option value="Fournisseur3">Fournisseur3</option>
+                  <option value="Fournisseur4">Fournisseur4</option>
+                  <option value="Fournisseur5">Fournisseur5</option>
+                  <option value="Fournisseur6">Fournisseur6</option>
+                </select>
+            </div>
+            <table>
+              <tr>
+                <th>Nom du produit</th>
+                <th>Code Barre</th>
+                <th>Prix acheté HT</th>
+                <th>Taux TVA</th>
+                <th>Quantité</th>
+              </tr>
+              <tr>
+                <td><p><select class="fournisseur" name="produit">
+                    <option value="default">Défaut</option>
+                    <option value="Produit1">Produit1</option>
+                    <option value="Produit2">Produit2</option>
+                    <option value="Produit3">Produit3</option>
+                    <option value="Produit4">Produit4</option>
+                    <option value="Produit5">Produit5</option>
+                  </select></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><input type="number" name="quantité" value="0"></td>
+              </tr>
+              <tr>
+                <td><p><select class="fournisseur" name="produit">
+                    <option value="default">Défaut</option>
+                    <option value="Produit1">Produit1</option>
+                    <option value="Produit2">Produit2</option>
+                    <option value="Produit3">Produit3</option>
+                    <option value="Produit4">Produit4</option>
+                    <option value="Produit5">Produit5</option>
+                  </select></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><input type="number" name="quantité" value="0"></td>
+              </tr>
+              <tr>
+                <td><p><select class="fournisseur" name="produit">
+                    <option value="default">Défaut</option>
+                    <option value="Produit1">Produit1</option>
+                    <option value="Produit2">Produit2</option>
+                    <option value="Produit3">Produit3</option>
+                    <option value="Produit4">Produit4</option>
+                    <option value="Produit5">Produit5</option>
+                  </select></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><input type="number" name="quantité" value="0"></td>
+              </tr>
+            </table>
+          </div>
+          <div class="caracterisique1">
+            <div class="caractéristique 2">
+              <p >Total HT : </p>
+              <p>Frais de port : </p>
+              <p >Total TVA : </p>
+              <p>Total TTC : </p>
+            </div>
+            <div class="caractéristique 3">
+              <p class="texte">00,00€</p>
+              <p class="texte">00,00€</p>
+              <p class="texte">00,00€</p>
+              <p class="texte">00,00€</p>
+            </div>
+          </div>  
+
+          <a href="consulter-cmd.html">
+            <input class="legend2" type="button" name="order" value="Commander ">
+          </a>
+          <a href="brouillon-cmd.html">
+            <input class="legend1" type="button" name="save" value="Enregistrer en brouillon ">
+          </a>
+          <a href="quitter-cmd.html">
+            <input class="legend3" type="button" name="leave" value="Quitter ">
+          </a>
+          <br/>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
